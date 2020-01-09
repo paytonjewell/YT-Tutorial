@@ -3,11 +3,59 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Righteous:regular);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:regular,700);
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato';
 }
 
+
+.navbar-brand {
+    font-family: 'Amatic SC';
+    font-size: x-large !important;
+}
+
+.nav-link {
+    margin: 1em;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+} 
+
+.active .nav-link {
+    color: #ffc107 !important;
+} 
+
+.hero {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(130, 90, 182, 0.418), rgba(90, 196, 178, 0.425)), url(img/lavender.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 3px 3px 5px rgba(46, 46, 46, 0.4);
+}
+
+
+.hero h1 {
+    font-size: 5em;
+    font-family: 'Amatic SC';
+  }
+
+  .hero .btn {
+      border: none !important;
+  }
+
+  .hero .btn:hover {
+      background-color: #ffc107 !important;
+  }
